@@ -1,0 +1,233 @@
+body{
+    color: #40514E;
+    margin: 0;
+    text-align: center;   
+    /* this centers everything in body 
+    that does not have a width.*/ 
+    font-family: 'Merriweather', serif; 
+}
+
+
+h1{
+    color: #66BFBF; 
+    font-size: 5rem;
+    /*rem makes it unchangable no matter what other sizes 
+    are applied in the body section*/
+    margin: 50px auto 0 auto; 
+    /* this is for when you have a width.
+    top,right,bottom,left or can do top/bottom, 
+    left/right by saying 0 auto;*/
+    font-family: 'Sacramento', cursive;
+}
+    
+h2{
+    color: #11999E;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 10px;
+}
+
+h3{
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    line-height: 2;
+}
+
+a{
+    color: #EAF6F6;
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px 10px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #11999E;
+}
+
+.top-container {
+    background-color: #E4F9F5;
+    border: solid 10px;
+    margin: 20px 10px 0 10px;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container{
+    background-color: lightgrey;
+    margin: 40px auto 20px;
+}
+
+.bottom-container{
+    background-color: #66BFBF;
+    margin: 0;
+    padding: 20px 0 20px; 
+    
+}
+
+.about-top{
+    background-color: #828282;
+    border: solid 10px;
+    margin: 20px 10px 0 10px;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.about-middle{ 
+    background-color: #E4F9F5;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.about-bottom{
+    background-color: grey;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+
+.pro{
+    text-decoration: underline;
+}
+
+.intro{
+    width: 30%;
+    margin: auto;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 150px;
+    bottom: 50px;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 200px;
+    top: 60px;
+}
+
+
+.skill-row{
+    margin: 75px auto 100px auto;
+    width: 50%;
+    text-align: left;
+}
+
+.headshot{
+    width: 25%;
+    border-radius: 50%;
+    margin: 50px 50px;
+}
+
+.desk {
+    width: 20%;
+    border: #ffffff solid 10px;
+    float: right;
+    margin-right: 40px;
+    margin-top: 0;
+    text-align: justify;
+}
+
+
+.separator{
+    border: dashed grey;
+    border-bottom: none;
+    width: 20%;
+    margin: 100px auto;
+}
+
+.code-img{
+    width: 20%;
+    float: left;
+    margin-right: 30px;
+}
+
+.set-img{
+    width: 20%;
+    float: right;
+    margin-left: 30px;
+}
+
+.btn {
+        background: #11cdd4;
+        background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+        background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+        background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+        background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+        background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+        -webkit-border-radius: 8;
+        -moz-border-radius: 8;
+        border-radius: 8px;
+        font-family: 'Montserrat', sans-serif;
+        color: #ffffff;
+        font-size: 20px;
+        padding: 10px 20px 10px 20px;
+        text-decoration: none;
+      }
+      
+      .btn:hover {
+        background: #30e3cb;
+        background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+        background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+        background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+        background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+        background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+        text-decoration: none;
+      }
+    
+.contact-me{
+    background-color: #E4F9F5;
+    width: 40%;
+    margin: 60px auto 60px;
+}
+
+.business {
+    background-color: #E4F9F5;
+    width: 40%;
+    margin: 60px auto 60px;
+}
+
+.copyright{
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 0;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bio {
+  color: #e4f9f5;
+  font-size: 20px;
+  margin-left: 350px;
+}
+
+.project-top {
+    background-color: #E4F9F5;
+    display: flex;
+    justify-content: center;
+    margin: 0 20px;
+}
+.project-middle {
+    display: flex;
+    gap: 200px;
+    padding-top: 20px;
+    justify-content: space-around;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+}
+
+#aboutme {
+    background-color: white;
+}
+
+#link {
+    color:#11999e;
+}
